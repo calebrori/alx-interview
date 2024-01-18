@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 
 """
-    method that calculates the fewest number of operations needed to result in n characters
+    calculates the fewest number of operations needed to result in n characters
 """
 
 
 def minOperations(n):
-    
-    
+
     now = 1
     start = 0
     counter = 0
