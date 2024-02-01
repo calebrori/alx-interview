@@ -30,9 +30,9 @@ def validUTF8(data):
                 return False
 
         else:
-            
+         
             if not (i & mask1 and not (i & mask2)):
-                    return False
+                return False
 
         number_bytes -= 1
 
@@ -40,4 +40,3 @@ def validUTF8(data):
         return True
 
     return False
-    
